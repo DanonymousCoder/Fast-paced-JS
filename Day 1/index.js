@@ -37,3 +37,12 @@ const recordCollection = {
   }
   
   updateRecords(recordCollection, 5439, 'artist', 'ABBA');
+
+
+  const myArray = [];
+let i = 5;
+while (i > 0) {
+  myArray.push(i);
+  i--;
+}
+console.log(myArray);
