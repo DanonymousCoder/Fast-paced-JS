@@ -46,3 +46,29 @@ while (i > -1) {
   i--;
 }
 console.log(myArray);
+
+// For loop
+// Setup
+const myArray2 = [];
+
+// Only change code below this line
+for (let i = 9; i > 0; i -= 2) {
+  myArray2.push(i);
+}
+console.log(myArray2);
+
+
+function multiplyAll(arr) {
+  let product = 1;
+  // Only change code below this line
+  for (let i = 0; i< arr.length; i++) {
+    for (let j = 0; j < arr[i].length; j++) {
+      console.log(arr[i][j]) 
+    }
+  }
+
+  // Only change code above this line
+  return product;
+}
+
+console.log(multiplyAll([[1], [2], [3]]))
