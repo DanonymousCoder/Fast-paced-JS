@@ -24,6 +24,15 @@ const recordCollection = {
     if (value.length ==  0) {
       delete records[id][prop];
     }
+    else if (prop != "track") {
+      records[id][prop] = value ;
+    }
+    else if (prop == "track" && records.hasOwnProperty["tracks"]){
+      records[id][prop].push(value);
+    }
+    else {
+      record[id][tracks]= []
+    }
     return records;
   }
   
