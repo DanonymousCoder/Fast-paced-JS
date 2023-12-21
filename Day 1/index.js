@@ -41,7 +41,7 @@ const recordCollection = {
 
   const myArray = [];
 let i = 5;
-while (i > 0) {
+while (i > -1) {
   myArray.push(i);
   i--;
 }
