@@ -157,3 +157,12 @@ return "No such contact"
 }
 
 console.log(lookUpProfile("Sherlock", "likes"));
+
+// Generate random number
+function getRandom() {
+  return Math.random()*20;  
+}
+
+function getRandomNumber() {
+  return Math.floor(Math.random()*20);  
+}
