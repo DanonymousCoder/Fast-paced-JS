@@ -151,4 +151,4 @@ return "No such contact"
   // Only change code above this line
 }
 
-console.log(lookUpProfile("Sherlocks", "likes"));
+console.log(lookUpProfile("Sherlock", "likes"));
