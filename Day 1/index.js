@@ -104,6 +104,7 @@ else {
 console.log(sum([2,3,4], 1));
 
 
+// Setup
 const contacts = [
   {
     firstName: "Akira",
@@ -130,27 +131,12 @@ const contacts = [
     likes: ["JavaScript", "Gaming", "Foxes"],
   },
 ];
-
 function lookUpProfile(name, prop) {
   // Only change code below this line
-for (let i = 0; contacts.length > i; i++) {
-  let contact = contacts[i];
-  console.log(i)
-  if (contact.firstName == name) {
-    if (contact.hasOwnProperty(prop)) {
-      console.log(contact[prop])
-      return contact[prop];
-    }
-    else {
-      return "No such property";
-    }
-  }
-  else {
-    return "No such contact";
-  }
+for ()
 }
 
   // Only change code above this line
 }
 
-lookUpProfile("Akira", "likes");
+console.log(lookUpProfile("Sherlocks", "likes"));
