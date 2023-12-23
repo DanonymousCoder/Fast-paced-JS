@@ -133,7 +133,9 @@ const contacts = [
 ];
 function lookUpProfile(name, prop) {
   // Only change code below this line
-for ()
+for (let i = 0; i < contacts.length; i++) {
+  let contact = contacts[i]
+}
 }
 
   // Only change code above this line
