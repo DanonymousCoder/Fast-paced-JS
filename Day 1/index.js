@@ -140,6 +140,9 @@ for (let i = 0; i < contacts.length; i++) {
     if (contact.hasOwnProperty(prop)) {
       return contact[prop];
     }
+    else {
+      return "No such property";
+    }
   }
 }
 }
