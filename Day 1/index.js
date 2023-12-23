@@ -1,4 +1,6 @@
-// Setup
+// Record Collection
+
+
 const recordCollection = {
     2548: {
       albumTitle: 'Slippery When Wet',
