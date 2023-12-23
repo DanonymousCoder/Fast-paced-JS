@@ -171,4 +171,28 @@ function getRandomNumber() {
 function getRandomNumberRange(min, max) {
   return Math.floor(Math.random()*(max - min + 1)) + min;  
 }
-getRandomNumberRange(0, 100)
+getRandomNumberRange(0, 100);
+
+
+// Using Ternary operator rewrite the code below
+/* 
+function checkSign(num) {
+  if (num > 0) {
+    return "positive";
+  }
+  else if (num < 0) {
+    return "negative";
+  }
+  else {
+    return "zero"
+  }
+}
+checkSign(10);*/
+
+function checkSign(num) {
+  return (num > 0) ? "positive"
+  :(num < 0) ? "negative"
+  : "zero";
+
+}
+checkSign(10);
