@@ -166,3 +166,8 @@ function getRandom() {
 function getRandomNumber() {
   return Math.floor(Math.random()*20);  
 }
+// generate random number between a range of number
+
+function getRandomNumberRange(min, max) {
+  return Math.floor(Math.random()*(max - min + 1)) + min;  
+}
