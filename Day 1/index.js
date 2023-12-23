@@ -134,7 +134,13 @@ const contacts = [
 function lookUpProfile(name, prop) {
   // Only change code below this line
 for (let i = 0; i < contacts.length; i++) {
-  let contact = contacts[i]
+  let contact = contacts[i];
+
+  if (contact.firstName == name) {
+    if (contact.hasOwnProperty(prop)) {
+      return contact[prop];
+    }
+  }
 }
 }
 
