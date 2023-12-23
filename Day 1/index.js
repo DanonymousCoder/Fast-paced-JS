@@ -42,8 +42,8 @@ const recordCollection = {
 
 
 
-  a
-// 
+  
+// while loop 
   const myArray = [];
 let i = 5;
 while (i > -1) {
@@ -109,7 +109,7 @@ else {
 console.log(sum([2,3,4], 1));
 
 
-// Setup
+// Profile Lookup
 const contacts = [
   {
     firstName: "Akira",
