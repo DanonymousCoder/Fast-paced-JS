@@ -146,5 +146,5 @@ function rangeOfNumbers(startNum, endNum) {
   }
   
   const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  console.log(removeFirstTwo(source))
+  console.log(removeFirstTwo(source));
   const sourceWithoutFirstTwo = removeFirstTwo(source);
